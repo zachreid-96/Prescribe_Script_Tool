@@ -1,4 +1,4 @@
-# Kyocera Prescribe Scripting Tool
+# Kyocera Prescribe Script Tool
 
 ![Batch](https://img.shields.io/badge/Batch-Windows-blue)
 ![Bash](https://img.shields.io/badge/Bash-Linux%20%2F%20macOS-lightgrey?logo=gnubash&logoColor=white)
