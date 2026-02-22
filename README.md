@@ -16,7 +16,7 @@
 
 A cross-platform scripting tool preloaded with common Kyocera Prescribe commands, designed for copier and printer field technicians. Built to eliminate the need to remember command syntax, locate the right text files, or understand the underlying Prescribe PDL to perform routine device operations.
 
-The tool was written with backwards compatibility and a unified user experience in mind — regardless of which language version you run, the interface and behavior remain consistent.
+The tool was written with backwards compatibility and a unified user experience in mind, regardless of which language version you run, the interface and behavior remain consistent.
 
 ---
 
@@ -25,7 +25,7 @@ The tool was written with backwards compatibility and a unified user experience 
 Field technicians regularly need to send Prescribe commands to Kyocera devices for tasks like pulling event logs, adjusting sleep timers, or backing up device settings. Before this tool:
 
 - Technicians had to track down the correct command text files from colleagues
-- Commands had to be formatted exactly right — mistakes meant wasted paper or silent failures
+- Commands had to be formatted exactly right, mistakes meant wasted paper or silent failures
 - Most solutions required Admin rights or PowerShell, creating friction on managed Windows machines
 - There was no single, simple tool that worked across Windows, Linux, and macOS
 
@@ -39,7 +39,7 @@ The tool is available in multiple languages to support different environments. P
 
 | Language | Path | Notes |
 |---|---|---|
-| Python | `python/` | Primary version — Python 2.7 and 3.12 |
+| Python | `python/` | Primary version, Python 2.7 and 3.12 |
 | Batch | `batch/` | Windows `.bat` scripts |
 | Bash | `bash/` | Linux/macOS (v3.2+) |
 | Zsh | `zsh/` | Advanced shell (v5.x) |
@@ -72,16 +72,16 @@ Running the script with no arguments launches an interactive menu. You'll be pro
 All scripts accept arguments in any of the following forms:
 
 ```bash
-# No args — fully interactive
+# No args, fully interactive
 prescribe.script
 
-# IP only — prompts for command
+# IP only, prompts for command
 prescribe.script 172.10.0.5
 
-# Command only — prompts for IP
+# Command only, prompts for IP
 prescribe.script event_log
 
-# Both args — no prompts
+# Both args, no prompts
 prescribe.script 172.10.0.5 event_log
 prescribe.script event_log 172.10.0.5
 ```
@@ -95,10 +95,10 @@ A stripped-down version in `./PATH` is designed to be placed in a custom Scripts
 
 This project is **archived**. It served its purpose and has since been superseded by more capable tooling. The repo is preserved as a reference and portfolio piece.
 
-Active Prescribe development has continued in a separate, more fully-featured project — see [zforgehub.dev](https://zforgehub.dev) for more.
+Active Prescribe development has continued in a separate, more fully-featured project, see [zforgehub.dev](https://zforgehub.dev) for more.
 
 ---
 
 ## Links
 
-- 🌐 [zforgehub.dev](https://zforgehub.dev) — Portfolio & DevHub
+- [zforgehub.dev](https://zforgehub.dev), Portfolio & DevHub
